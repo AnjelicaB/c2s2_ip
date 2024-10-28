@@ -48,3 +48,8 @@ core.*
 
 # Ignore all .nfs files
 .nfs*
+
+# FPGA output files
+**/*db/
+**/output_files
+**/*.bak
