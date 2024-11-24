@@ -6,8 +6,8 @@
 
 `include "cmn/regs.v"
 
-`ifndef RESET_SYNCHRONIZER_V
-`define RESET_SYNCHRONIZER_V
+`ifndef CMN_RESET_SYNC_V
+`define CMN_RESET_SYNC_V
 
 module reset_synchronizer (
   input  logic clk,
@@ -37,4 +37,4 @@ module reset_synchronizer (
   
 endmodule
 
-`endif /* RESET_SYNCHRONIZER_V */
+`endif /* CMN_RESET_SYNC_V */
